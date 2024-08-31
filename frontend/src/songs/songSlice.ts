@@ -25,7 +25,7 @@ const songSlice = createSlice({
       state.loading = false;
     },
 
-    createSongRequest(state, action: PayloadAction<CreateSong>) {
+    createSongRequest(state, _action: PayloadAction<CreateSong>) {
       state.loading = true;
     },
     createSongSuccess(state, action: PayloadAction<Song>) {
@@ -47,7 +47,7 @@ const songSlice = createSlice({
       state.loading = false;
     },
 
-    updateSongRequest(state, action: PayloadAction<Song>) {
+    updateSongRequest(state, _action: PayloadAction<Song>) {
       state.loading = true;
     },
 
