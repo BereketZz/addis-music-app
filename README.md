@@ -14,7 +14,7 @@
         </ul>
     </li>
     <li><strong>Real-time Updates:</strong> The frontend automatically updates the song list and statistics without reloading the page.</li>
-    <li><strong>Filtering:</strong> Filter songs by genre.</li>
+    <li><strong>Filtering:</strong> Filter songs by genre, Artist and Album.</li>
 </ul>
 
 <h2>Technologies Used</h2>
