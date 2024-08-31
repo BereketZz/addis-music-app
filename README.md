@@ -72,5 +72,5 @@
 <h2>Live Links</h2>
 <ul>
     <li><strong>Backend API:</strong> <a href="https://addis-music-beki.onrender.com/api/songs">Backend on Render</a></li>
-    <li><strong>Frontend:</strong> <a href="https://addis-music-nh4f2owbj-bereketzzs-projects.vercel.app/">Frontend on Vercel</a> (Replace with actual link)</li>
+    <li><strong>Frontend:</strong> <a href="https://addis-music-nh4f2owbj-bereketzzs-projects.vercel.app/">Frontend on Vercel</a></li>
 </ul>
