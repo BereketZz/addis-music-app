@@ -32,14 +32,7 @@ const songSlice = createSlice({
       state.songs.push(action.payload);
       state.loading = false;
     },
-    deleteSongRequest(state, action: PayloadAction<string>) {
-      const index = state.songs.findIndex(
-        (song) => song._id === action.payload
-      );
-      if (index !== -1) {
-        // Remove the song being updated from the state
-        state.songs.splice(index, 1); 
-      }
+    deleteSongRequest(state, _action: PayloadAction<string>) {
       state.loading = true;
     },
     deleteSongSuccess(state, action: PayloadAction<string>) {
@@ -60,6 +53,7 @@ const songSlice = createSlice({
       }
       state.loading = false;
     },
+   
   },
 });
 
